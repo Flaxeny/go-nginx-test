@@ -39,8 +39,10 @@ sudo apt update && sudo apt install -y golang
 
 2. Создайте конфигурацию для Nginx:
    ```sh
-   sudo nano /etc/nginx/sites-available/go_app (конфигурационный файл nginx.conf находится в корневой папке)
+   sudo nano /etc/nginx/sites-available/go_app
    ```
+(конфигурационный файл nginx.conf находится в корневой папке)
+
    Добавьте следующее содержимое:
    ```nginx
    server {
@@ -135,8 +137,10 @@ sudo apt install -y docker.io docker-compose
 
 2. Настройте Nginx:
    ```sh
-   sudo nano /etc/nginx/sites-available/go_app (конфигурационный файл  лежит в nginx.conf расположенном в папке v2)
+   sudo nano /etc/nginx/sites-available/go_app
    ```
+(конфигурационный файл  лежит в nginx.conf расположенном в папке v2)
+
    Добавьте:
    ```nginx
    server {
